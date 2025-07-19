@@ -1,0 +1,270 @@
+{
+    "common": {
+        "meta": {
+            "title": "NuxtPlus {'|'} Nuxt3 AI SaaS模板",
+            "description": "基于 Nuxt3 的全能 AI SaaS 解决方案，助你高效优雅快速上线 AI 应用。"
+        },
+        "language": "语言",
+        "theme": "主题",
+        "cancel": "取消",
+        "dashboard": "仪表盘",
+        "profile": "个人资料",
+        "submit": "提交"
+    },
+    "showcase": {
+        "title": "案例展示",
+        "description": "探索使用我们平台构建的精彩项目",
+        "empty": "暂无案例展示",
+        "emptyDescription": "敬请期待精彩项目！",
+        "visitWebsite": "访问网站",
+        "submit": {
+            "title": "提交您的项目",
+            "description": "与社区分享您的精彩项目",
+            "button": "提交项目",
+            "comingSoon": "即将推出"
+        }
+    },
+    "profile": {
+        "avatar": {
+            "title": "头像",
+            "description": "点击上传按钮上传自定义头像",
+            "upload": "上传头像",
+            "uploading": "上传中...",
+            "note": "头像非必需，但强烈建议设置",
+            "success": "头像上传成功",
+            "error": "头像上传失败"
+        },
+        "name": {
+            "title": "姓名",
+            "description": "请输入您的显示姓名",
+            "save": "保存",
+            "saving": "保存中...",
+            "note": "请使用3-30个字符作为您的姓名",
+            "success": "姓名更新成功",
+            "error": "姓名更新失败",
+            "validation": {
+                "length": "姓名必须在3-30个字符之间"
+            }
+        }
+    },
+    "auth": {
+        "signIn": "登录",
+        "signInModal": {
+            "title": "登录",
+            "description": "选择您偏好的登录方式以继续。",
+            "google": "通过 Google 登录",
+            "github": "通过 GitHub 登录"
+        },
+        "signUpModal": {
+            "description": "创建您的账号以开始使用。"
+        },
+        "email": "邮箱",
+        "password": "密码",
+        "username": "用户名",
+        "confirmPassword": "确认密码",
+        "emailPlaceholder": "请输入您的邮箱",
+        "passwordPlaceholder": "请输入您的密码",
+        "usernamePlaceholder": "请输入您的用户名",
+        "confirmPasswordPlaceholder": "请确认您的密码",
+        "or": "或",
+        "noAccount": "还没有账号？",
+        "haveAccount": "已有账号？",
+        "signUp": "注册",
+        "continueAgreeing": "继续使用即表示您同意我们的",
+        "termsOfService": "服务条款",
+        "and": "和",
+        "privacyPolicy": "隐私政策",
+        "signOut": "登出",
+        "validation": {
+            "username": {
+                "required": "请输入用户名",
+                "min": "用户名至少需要2个字符"
+            },
+            "email": {
+                "required": "请输入邮箱地址",
+                "invalid": "邮箱地址格式不正确",
+                "format": "请输入有效的邮箱地址"
+            },
+            "password": {
+                "required": "请输入密码",
+                "min": "密码至少需要6个字符"
+            },
+            "confirmPassword": {
+                "required": "请确认密码",
+                "match": "两次输入的密码不一致"
+            }
+        },
+        "registerSuccess": "注册成功，已往您邮箱发送了邮件验证"
+    },
+    "landing": {
+        "hero": {
+            "title": "NuxtPlus",
+            "newRelease": "全新发布",
+            "description": "一站式 Nuxt3 SaaS解决方案。内置身份验证、博客、AI集成和SEO优化，让您的出海应用在24小时内从构想到上线。",
+            "getStarted": "开始使用",
+            "developers": "开发者",
+            "components": "组件",
+            "satisfaction": "满意度",
+            "demoPlaceholder": "产品演示视频或截图"
+        },
+        "features": {
+            "title": "特性",
+            "description": "NuxtPlus 提供丰富的功能和组件，帮助您快速构建现代网络应用。",
+            "items": {
+                "performance": {
+                    "title": "高性能",
+                    "description": "基于 Nuxt.js 强大的性能优化，确保您的网站加载迅速、响应快速，提供出色的用户体验。"
+                },
+                "components": {
+                    "title": "丰富组件",
+                    "description": "内置各种预设组件，从导航栏到页脚，从表单到卡片，满足各种常见UI需求，加快开发进程。"
+                },
+                "theme": {
+                    "title": "主题系统",
+                    "description": "支持明暗模式切换，并提供可自定义的主题变量，轻松创建符合品牌调性的视觉体验。"
+                },
+                "typescript": {
+                    "title": "TypeScript 支持",
+                    "description": "完全支持 TypeScript，提供类型安全的开发体验，减少错误，提高代码质量和可维护性。"
+                },
+                "seo": {
+                    "title": "SEO 优化",
+                    "description": "内置 SEO 最佳实践，自动生成元标签和结构化数据，帮助您的网站在搜索引擎中获得更好的排名。"
+                },
+                "api": {
+                    "title": "API 集成",
+                    "description": "通过内置的身份验证和缓存机制简化 API 调用和数据获取过程，使前后端交互更加便捷高效。"
+                }
+            }
+        },
+        "pricing": {
+            "title": "定价",
+            "subtitle": "选择最适合您需求的方案，所有方案均提供核心功能，随时可以升级或降级。",
+            "plans": {
+                "free": {
+                    "title": "免费版",
+                    "subtitle": "适合个人项目和学习",
+                    "price": "$0",
+                    "period": "/月",
+                    "features": {
+                        "basic_components": "基础组件库",
+                        "community_support": "社区支持",
+                        "projects": "1个项目"
+                    },
+                    "cta": "开始使用"
+                },
+                "pro": {
+                    "title": "专业版",
+                    "subtitle": "适合专业开发者和小型团队",
+                    "price": "$99",
+                    "period": "/月",
+                    "features": {
+                        "all_free_features": "所有免费版功能",
+                        "advanced_components": "高级组件库",
+                        "priority_support": "优先邮件支持",
+                        "projects": "10个项目"
+                    },
+                    "cta": "立即购买",
+                    "recommended": "推荐"
+                },
+                "enterprise": {
+                    "title": "企业版",
+                    "subtitle": "适合大型团队和企业需求",
+                    "price": "$299",
+                    "period": "/月",
+                    "features": {
+                        "all_pro_features": "所有专业版功能",
+                        "custom_components": "专属定制组件",
+                        "dedicated_support": "24/7专人支持",
+                        "projects": "无限项目"
+                    },
+                    "cta": "联系我们"
+                }
+            }
+        },
+        "testimonials": {
+            "title": "用户评价",
+            "description": "来自真实用户的反馈，了解他们如何使用NuxtPlus提升开发效率",
+            "cards": {
+                "card1": {
+                    "content": "NuxtPlus大大加速了我们的开发流程，组件库丰富且易于定制，让我们能够专注于业务逻辑而非UI实现。",
+                    "name": "张女士",
+                    "position": "前端技术总监 · 科技公司"
+                },
+                "card2": {
+                    "content": "作为一名独立开发者，NuxtPlus为我提供了专业级的开发体验，让我的项目看起来就像是由一个团队完成的。",
+                    "name": "李先生",
+                    "position": "独立开发者 · 自由职业"
+                },
+                "card3": {
+                    "content": "我们的团队在迁移到NuxtPlus后，开发效率提升了30%，主题系统让我们能够轻松适配不同的品牌需求。",
+                    "name": "王先生",
+                    "position": "技术负责人 · 电商平台"
+                }
+            }
+        },
+        "faq": {
+            "title": "常见问题",
+            "description": "我们收集了一些您可能会问的问题，如果没有找到您需要的答案，请随时联系我们。",
+            "items": {
+                "what": {
+                    "question": "NuxtPlus是什么？",
+                    "answer": "NuxtPlus是一个基于Nuxt3构建的SaaS模板，预集成了Supabase身份验证、国际化、SEO和博客模块，帮助开发者快速构建现代化的Web应用程序。"
+                }
+            }
+        }
+    },
+    "footer": {
+        "introduction": "一个集成最佳实践和强大组件库的现代Nuxt应用框架。",
+        "product": {
+            "title": "产品",
+            "features": "功能特性",
+            "solutions": "解决方案",
+            "customers": "客户案例",
+            "pricing": "价格方案"
+        },
+        "resources": {
+            "title": "资源",
+            "components": "组件库",
+            "templates": "模板",
+            "examples": "示例",
+            "documentation": "文档"
+        },
+        "company": {
+            "title": "公司",
+            "about": "关于我们",
+            "blog": "博客",
+            "contact": "联系我们",
+            "support": "支持"
+        },
+        "legal": {
+            "title": "法律",
+            "privacy": "隐私政策",
+            "terms": "服务条款",
+            "cookies": "Cookie政策",
+            "security": "安全"
+        },
+        "copyright": "NuxtPlus. 保留所有权利。"
+    },
+    "blog": {
+        "category": "分类",
+        "categories": "分类目录",
+        "tableOfContents": "目录",
+        "author": "作者",
+        "publishedOn": "发布于",
+        "readMore": "阅读更多",
+        "prevPost": "上一篇",
+        "nextPost": "下一篇",
+        "relatedPosts": "相关文章",
+        "backToBlog": "返回博客列表",
+        "notFound": "文章未找到"
+    },
+    "about": {
+        "title": "关于我们",
+        "introduction": "NuxtPlus 是为创造者打造的开发框架。我们致力于提供一个简约、强大且优雅的解决方案，让构建现代 Web 应用成为一种真正的享受。无论您是独立开发者、初创公司还是大型企业，NuxtPlus 都能帮助您快速启动和扩展您的项目。",
+        "meta": {
+            "title": "关于我们 - NuxtPlus",
+            "description": "NuxtPlus 是为创造者打造的开发框架。简约、强大、优雅，让构建现代 Web 应用成为一种享受。"
+        }
+    }
+}

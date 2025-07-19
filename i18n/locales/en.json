@@ -1,0 +1,270 @@
+{
+    "common": {
+        "meta": {
+            "title": "NuxtPlus {'|'} Nuxt3 AI SaaS Template",
+            "description": "Comprehensive AI SaaS solution on Nuxt3. Integrates auth, blog, & SEO features for efficient, elegant AI application launches."
+        },
+        "language": "Language",
+        "theme": "Theme",
+        "cancel": "Cancel",
+        "dashboard": "Dashboard",
+        "profile": "Profile",
+        "submit": "Submit"
+    },
+    "showcase": {
+        "title": "Showcase",
+        "description": "Explore amazing projects built with our platform",
+        "empty": "No showcases available yet",
+        "emptyDescription": "Check back soon for amazing projects!",
+        "visitWebsite": "Visit Website",
+        "submit": {
+            "title": "Submit Your Project",
+            "description": "Share your amazing project with the community",
+            "button": "Submit Project",
+            "comingSoon": "Coming Soon"
+        }
+    },
+    "profile": {
+        "avatar": {
+            "title": "Avatar",
+            "description": "Click upload button to upload a custom one",
+            "upload": "Upload Avatar",
+            "uploading": "Uploading...",
+            "note": "An avatar is optional but strongly recommended",
+            "success": "Avatar uploaded successfully",
+            "error": "Failed to upload avatar"
+        },
+        "name": {
+            "title": "Name",
+            "description": "Please enter your display name",
+            "save": "Save",
+            "saving": "Saving...",
+            "note": "Please use 3-30 characters for your name",
+            "success": "Name updated successfully",
+            "error": "Failed to update name",
+            "validation": {
+                "length": "Name must be between 3-30 characters"
+            }
+        }
+    },
+    "auth": {
+        "signIn": "Sign In",
+        "signInModal": {
+            "title": "Sign In",
+            "description": "Choose your preferred sign-in method to continue.",
+            "google": "Sign in with Google",
+            "github": "Sign in with GitHub"
+        },
+        "signUpModal": {
+            "description": "Create your account to get started."
+        },
+        "email": "Email",
+        "password": "Password",
+        "username": "Username",
+        "confirmPassword": "Confirm Password",
+        "emailPlaceholder": "Enter your email",
+        "passwordPlaceholder": "Enter your password",
+        "usernamePlaceholder": "Enter your username",
+        "confirmPasswordPlaceholder": "Confirm your password",
+        "or": "OR",
+        "noAccount": "Don't have an account?",
+        "haveAccount": "Already have an account?",
+        "signUp": "Sign up",
+        "continueAgreeing": "By continuing, you are agreeing to our",
+        "termsOfService": "Terms of Service",
+        "and": "and",
+        "privacyPolicy": "Privacy Policy",
+        "signOut": "Sign Out",
+        "validation": {
+            "username": {
+                "required": "Please enter a username",
+                "min": "Username must be at least 2 characters"
+            },
+            "email": {
+                "required": "Please enter an email address",
+                "invalid": "Email format is incorrect",
+                "format": "Please enter a valid email address"
+            },
+            "password": {
+                "required": "Please enter a password",
+                "min": "Password must be at least 6 characters"
+            },
+            "confirmPassword": {
+                "required": "Please confirm your password",
+                "match": "Passwords do not match"
+            }
+        },
+        "registerSuccess": "Registration successful, an email verification has been sent to your email"
+    },
+    "landing": {
+        "hero": {
+            "title": "NuxtPlus",
+            "newRelease": "New Release",
+            "description": "A full-stack framework based on Nuxt3, leveraging Vue3 ecosystem advantages to provide out-of-the-box AI integration, user management, and blog systems.",
+            "getStarted": "Get Started",
+            "developers": "Developers",
+            "components": "Components",
+            "satisfaction": "Satisfaction",
+            "demoPlaceholder": "Product demo video or screenshot"
+        },
+        "features": {
+            "title": "Features",
+            "description": "NuxtPlus provides rich features and components to help you quickly build modern web applications.",
+            "items": {
+                "performance": {
+                    "title": "High Performance",
+                    "description": "Based on Nuxt.js powerful performance optimization, ensuring your website loads quickly, responds rapidly, and delivers an excellent user experience."
+                },
+                "components": {
+                    "title": "Rich Components",
+                    "description": "Built-in preset components from navigation bars to footers, forms to cards, meeting various common UI needs and accelerating development."
+                },
+                "theme": {
+                    "title": "Theme System",
+                    "description": "Support for light/dark mode switching and customizable theme variables, easily creating visual experiences that match your brand."
+                },
+                "typescript": {
+                    "title": "TypeScript Support",
+                    "description": "Full TypeScript support providing type-safe development experience, reducing errors and improving code quality and maintainability."
+                },
+                "seo": {
+                    "title": "SEO Optimization",
+                    "description": "Built-in SEO best practices, automatically generating meta tags and structured data to help your website rank better in search engines."
+                },
+                "api": {
+                    "title": "API Integration",
+                    "description": "Simplify API calls and data fetching through built-in authentication and caching mechanisms, making frontend-backend interaction more convenient and efficient."
+                }
+            }
+        },
+        "pricing": {
+            "title": "Pricing",
+            "subtitle": "Choose the plan that best fits your needs. All plans include core features and can be upgraded or downgraded at any time.",
+            "plans": {
+                "free": {
+                    "title": "Free",
+                    "subtitle": "Perfect for personal projects and learning",
+                    "price": "$0",
+                    "period": "/month",
+                    "features": {
+                        "basic_components": "Basic Component Library",
+                        "community_support": "Community Support",
+                        "projects": "1 Project"
+                    },
+                    "cta": "Get Started"
+                },
+                "pro": {
+                    "title": "Pro",
+                    "subtitle": "Ideal for professional developers and small teams",
+                    "price": "$99",
+                    "period": "/month",
+                    "features": {
+                        "all_free_features": "All Free Features",
+                        "advanced_components": "Advanced Component Library",
+                        "priority_support": "Priority Email Support",
+                        "projects": "10 Projects"
+                    },
+                    "cta": "Buy Now",
+                    "recommended": "Recommended"
+                },
+                "enterprise": {
+                    "title": "Enterprise",
+                    "subtitle": "For large teams and enterprise needs",
+                    "price": "$299",
+                    "period": "/month",
+                    "features": {
+                        "all_pro_features": "All Pro Features",
+                        "custom_components": "Custom Components",
+                        "dedicated_support": "24/7 Dedicated Support",
+                        "projects": "Unlimited Projects"
+                    },
+                    "cta": "Contact Us"
+                }
+            }
+        },
+        "testimonials": {
+            "title": "Testimonials",
+            "description": "Real feedback from our users, learn how they use NuxtPlus to improve development efficiency",
+            "cards": {
+                "card1": {
+                    "content": "NuxtPlus has greatly accelerated our development process. The rich component library is easy to customize, allowing us to focus on business logic rather than UI implementation.",
+                    "name": "Ms. Zhang",
+                    "position": "Frontend Technical Director · Tech Company"
+                },
+                "card2": {
+                    "content": "As an independent developer, NuxtPlus provides me with a professional development experience, making my projects look like they were completed by a team.",
+                    "name": "Mr. Li",
+                    "position": "Independent Developer · Freelancer"
+                },
+                "card3": {
+                    "content": "After migrating to NuxtPlus, our team's development efficiency increased by 30%. The theme system allows us to easily adapt to different brand requirements.",
+                    "name": "Mr. Wang",
+                    "position": "Technical Lead · E-commerce Platform"
+                }
+            }
+        },
+        "faq": {
+            "title": "FAQ",
+            "description": "We've collected some questions you might ask. If you can't find the answer you're looking for, feel free to contact us.",
+            "items": {
+                "what": {
+                    "question": "What is NuxtPlus?",
+                    "answer": "NuxtPlus is a SaaS template built on Nuxt3, pre-integrated with Supabase Auth, internationalization, SEO, and Blog modules to help developers quickly build modern web applications."
+                }
+            }
+        }
+    },
+    "footer": {
+        "introduction": "A modern Nuxt application framework integrating best practices and powerful component libraries.",
+        "product": {
+            "title": "Product",
+            "features": "Features",
+            "solutions": "Solutions",
+            "customers": "Customers",
+            "pricing": "Pricing"
+        },
+        "resources": {
+            "title": "Resources",
+            "components": "Components",
+            "templates": "Templates",
+            "examples": "Examples",
+            "documentation": "Documentation"
+        },
+        "company": {
+            "title": "Company",
+            "about": "About Us",
+            "blog": "Blog",
+            "contact": "Contact",
+            "support": "Support"
+        },
+        "legal": {
+            "title": "Legal",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service",
+            "cookies": "Cookie Policy",
+            "security": "Security"
+        },
+        "copyright": "NuxtPlus. All rights reserved."
+    },
+    "blog": {
+        "category": "Category",
+        "categories": "Categories",
+        "tableOfContents": "Table of Contents",
+        "author": "Author",
+        "publishedOn": "Published on",
+        "readMore": "Read More",
+        "prevPost": "Previous Post",
+        "nextPost": "Next Post",
+        "relatedPosts": "Related Posts",
+        "backToBlog": "Back to Blog",
+        "notFound": "Article not found"
+    },
+    "about": {
+        "title": "About Us",
+        "introduction": "NuxtPlus is a development framework built for creators. We are committed to providing a simple, powerful, and elegant solution that makes building modern web applications a real pleasure. Whether you are an independent developer, a startup, or a large enterprise, NuxtPlus can help you quickly launch and scale your projects.",
+        "meta": {
+            "title": "About Us - NuxtPlus",
+            "description": "NuxtPlus is a development framework for creators. Simple, powerful, and elegant, making it a joy to build modern web applications."
+        }
+    }
+}

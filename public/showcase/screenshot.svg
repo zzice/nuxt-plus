@@ -1,0 +1,70 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 渐变背景 -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="400" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- 浏览器窗口 -->
+  <rect x="15" y="25" width="370" height="250" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  
+  <!-- 浏览器标题栏 -->
+  <rect x="15" y="25" width="370" height="35" rx="12" fill="url(#cardGradient)"/>
+  <rect x="15" y="55" width="370" height="1" fill="#e2e8f0"/>
+  
+  <!-- 浏览器控制按钮 -->
+  <circle cx="30" cy="42" r="5" fill="#ef4444"/>
+  <circle cx="48" cy="42" r="5" fill="#f59e0b"/>
+  <circle cx="66" cy="42" r="5" fill="#10b981"/>
+  
+  <!-- 地址栏 -->
+  <rect x="90" y="35" width="220" height="14" rx="7" fill="white" stroke="#e2e8f0"/>
+  <text x="95" y="44" font-family="Arial, sans-serif" font-size="8" fill="#9ca3af">https://example.com</text>
+  
+  <!-- 现代网站布局 -->
+  <!-- Hero区域 -->
+  <rect x="30" y="70" width="340" height="60" rx="8" fill="url(#primaryGradient)"/>
+  <rect x="45" y="85" width="120" height="8" rx="4" fill="white" opacity="0.9"/>
+  <rect x="45" y="100" width="80" height="6" rx="3" fill="white" opacity="0.7"/>
+  <rect x="45" y="112" width="60" height="12" rx="6" fill="white" opacity="0.8"/>
+  
+  <!-- 卡片网格 -->
+  <rect x="30" y="145" width="100" height="70" rx="6" fill="url(#cardGradient)" stroke="#e2e8f0"/>
+  <rect x="145" y="145" width="100" height="70" rx="6" fill="url(#cardGradient)" stroke="#e2e8f0"/>
+  <rect x="260" y="145" width="110" height="70" rx="6" fill="url(#cardGradient)" stroke="#e2e8f0"/>
+  
+  <!-- 卡片内容 -->
+  <rect x="40" y="155" width="80" height="4" rx="2" fill="#6b7280"/>
+  <rect x="40" y="165" width="60" height="3" rx="1.5" fill="#9ca3af"/>
+  <rect x="40" y="175" width="70" height="3" rx="1.5" fill="#9ca3af"/>
+  
+  <rect x="155" y="155" width="80" height="4" rx="2" fill="#6b7280"/>
+  <rect x="155" y="165" width="60" height="3" rx="1.5" fill="#9ca3af"/>
+  <rect x="155" y="175" width="70" height="3" rx="1.5" fill="#9ca3af"/>
+  
+  <rect x="270" y="155" width="80" height="4" rx="2" fill="#6b7280"/>
+  <rect x="270" y="165" width="60" height="3" rx="1.5" fill="#9ca3af"/>
+  <rect x="270" y="175" width="70" height="3" rx="1.5" fill="#9ca3af"/>
+  
+  <!-- 底部导航/页脚 -->
+  <rect x="30" y="230" width="340" height="30" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+  <rect x="45" y="240" width="40" height="3" rx="1.5" fill="#6b7280"/>
+  <rect x="95" y="240" width="40" height="3" rx="1.5" fill="#6b7280"/>
+  <rect x="145" y="240" width="40" height="3" rx="1.5" fill="#6b7280"/>
+  
+  <!-- 装饰性图标 -->
+  <circle cx="320" cy="95" r="8" fill="white" opacity="0.2"/>
+  <rect x="315" y="90" width="10" height="10" rx="2" fill="white" opacity="0.3"/>
+</svg>
