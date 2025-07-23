@@ -102,6 +102,7 @@
             "newRelease": "New Release",
             "description": "A full-stack framework based on Nuxt3, leveraging Vue3 ecosystem advantages to provide out-of-the-box AI integration, user management, and blog systems.",
             "getStarted": "Get Started",
+            "github": "GitHub",
             "developers": "Developers",
             "components": "Components",
             "satisfaction": "Satisfaction",
