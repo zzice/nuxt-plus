@@ -137,7 +137,14 @@
       "developers": "Developers",
       "components": "Components",
       "satisfaction": "Satisfaction",
-      "demoPlaceholder": "Product demo video or screenshot"
+      "demoPlaceholder": "Product demo video or screenshot",
+      "dynamicTitles": {
+        "amazing": "Amazing",
+        "powerful": "Powerful",
+        "elegant": "Elegant",
+        "modern": "Modern",
+        "smart": "Smart"
+      }
     },
     "features": {
       "title": "Features",

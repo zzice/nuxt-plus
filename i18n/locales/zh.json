@@ -137,7 +137,14 @@
       "developers": "开发者",
       "components": "组件",
       "satisfaction": "满意度",
-      "demoPlaceholder": "产品演示视频或截图"
+      "demoPlaceholder": "产品演示视频或截图",
+      "dynamicTitles": {
+        "amazing": "惊艳",
+        "powerful": "强大",
+        "elegant": "优雅",
+        "modern": "现代",
+        "smart": "智能"
+      }
     },
     "features": {
       "title": "特性",
