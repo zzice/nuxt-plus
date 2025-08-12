@@ -11,10 +11,10 @@
         <div
           class="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-medium text-primary mb-6">
           <Icon name="lucide:zap" class="w-4 h-4" />
-          定价方案
+          {{ $t('landing.pricing.badge') }}
         </div>
         <h2
-          class="text-5xl md:text-6xl font-bold bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">
+          class="text-5xl md:text-6xl font-bold bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent leading-tight">
           {{ $t('landing.pricing.title') }}
         </h2>
         <p class="text-xl text-muted-foreground leading-relaxed">
@@ -100,7 +100,7 @@
             class="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10 opacity-50 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl">
           </div>
           <div
-            class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-secondary to-primary rounded-t-3xl">
+            class="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-primary/60 to-transparent rounded-t-3xl">
           </div>
 
           <div class="relative z-10 space-y-6 pt-4">

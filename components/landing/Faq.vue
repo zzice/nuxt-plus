@@ -2,18 +2,16 @@
   <section id="faq" class="py-32">
     <div class="max-w-6xl mx-auto px-6">
       <div class="text-center mb-20">
-        <h2 class="text-4xl font-bold text-foreground mb-6">{{ $t('landing.faq.title') }}</h2>
+        <h2
+          class="text-5xl md:text-6xl font-bold bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent leading-tight">
+          {{ $t('landing.faq.title') }}</h2>
         <p class="text-xl text-muted-foreground max-w-3xl mx-auto">{{ $t('landing.faq.description') }}</p>
       </div>
 
       <div class="mx-auto max-w-4xl">
         <Accordion type="single" class="w-full space-y-4" collapsible :default-value="defaultValue">
-          <AccordionItem 
-            v-for="(item, key) in faqItems" 
-            :key="key" 
-            :value="key"
-            class="border-border rounded-lg px-6 py-2"
-          >
+          <AccordionItem v-for="(item, key) in faqItems" :key="key" :value="key"
+            class="border-border rounded-lg px-6 py-2">
             <AccordionTrigger class="text-left text-lg font-medium">
               {{ $t(`landing.faq.items.${key}.question`) }}
             </AccordionTrigger>

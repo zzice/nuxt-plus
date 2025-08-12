@@ -13,10 +13,10 @@
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
             <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
           </span>
-          核心特性
+          {{ $t('landing.features.badge') }}
         </div>
         <h2
-          class="text-4xl md:text-5xl font-bold text-foreground mb-6 bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
+          class="text-5xl md:text-6xl font-bold bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent leading-tight">
           {{ $t('landing.features.title') }}
         </h2>
         <p class="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -26,44 +26,55 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
         <div v-for="(feature, index) in features" :key="index"
-          class="group relative bg-gradient-to-br from-background to-background/50 backdrop-blur-sm rounded-2xl p-8 border border-border/50 transition-all duration-500 hover:border-primary/30 hover:shadow-2xl hover:shadow-primary/10 hover:-translate-y-2 overflow-hidden">
+          class="group relative bg-gradient-to-br from-background to-background/50 backdrop-blur-sm rounded-2xl p-8 border border-border/50 transition-all duration-700 ease-out hover:border-primary/40 hover:shadow-2xl hover:shadow-primary/20 hover:-translate-y-3 hover:scale-[1.02] overflow-hidden cursor-pointer">
 
           <!-- 卡片背景光效 -->
           <div
-            class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            class="absolute inset-0 bg-gradient-to-br from-primary/8 via-primary/3 to-secondary/8 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-out">
           </div>
+          <!-- 顶部渐变条 -->
           <div
-            class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-secondary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+            class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-secondary to-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700 origin-left">
+          </div>
+          <!-- 底部光晕效果 -->
+          <div
+            class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-3/4 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-200">
+          </div>
+          <!-- 角落装饰光点 -->
+          <div
+            class="absolute top-4 right-4 w-2 h-2 bg-primary/30 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-pulse transition-opacity duration-500 delay-300">
           </div>
 
           <div class="relative z-10">
             <!-- 图标区域 -->
             <div class="relative mb-6">
               <div
-                class="w-16 h-16 flex items-center justify-center rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 text-primary mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500">
-                <component :is="feature.icon" class="w-8 h-8" />
+                class="w-16 h-16 flex items-center justify-center rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 text-primary mb-4 group-hover:scale-125 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-primary/30 transition-all duration-700 ease-out">
+                <component :is="feature.icon"
+                  class="w-8 h-8 group-hover:scale-110 transition-transform duration-500 delay-100" />
               </div>
               <!-- 装饰性圆点 -->
-              <div class="absolute -top-2 -right-2 w-4 h-4 bg-primary/20 rounded-full animate-pulse"></div>
+              <div
+                class="absolute -top-2 -right-2 w-4 h-4 bg-primary/20 rounded-full animate-pulse group-hover:bg-primary/40 group-hover:scale-125 transition-all duration-500">
+              </div>
+              <!-- 图标背景光环 -->
+              <div
+                class="absolute inset-0 w-16 h-16 rounded-2xl bg-primary/10 opacity-0 group-hover:opacity-100 group-hover:scale-150 transition-all duration-700 blur-md">
+              </div>
             </div>
 
             <!-- 内容区域 -->
             <div class="space-y-4">
-              <h3 class="text-xl font-bold text-foreground group-hover:text-primary transition-colors duration-300">
+              <h3
+                class="text-xl font-bold text-foreground group-hover:text-primary group-hover:translate-x-1 transition-all duration-500 delay-150">
                 {{ $t(`landing.features.items.${feature.key}.title`) }}
               </h3>
               <p
-                class="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300">
+                class="text-muted-foreground leading-relaxed group-hover:text-foreground/80 group-hover:translate-x-1 transition-all duration-500 delay-200">
                 {{ $t(`landing.features.items.${feature.key}.description`) }}
               </p>
             </div>
 
-            <!-- 底部装饰箭头 -->
-            <div
-              class="mt-6 flex items-center text-primary opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-0 group-hover:translate-x-2">
-              <span class="text-sm font-medium mr-2">了解更多</span>
-              <Icon name="lucide:arrow-right" class="w-4 h-4" />
-            </div>
           </div>
         </div>
       </div>

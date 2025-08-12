@@ -11,10 +11,10 @@
         <div
           class="inline-flex items-center gap-2 rounded-full bg-secondary/10 px-4 py-2 text-sm font-medium text-secondary mb-6">
           <Icon name="lucide:heart" class="w-4 h-4" />
-          用户评价
+          {{ $t('landing.testimonials.badge') }}
         </div>
         <h2
-          class="text-5xl md:text-6xl font-bold bg-gradient-to-r from-foreground via-secondary to-foreground bg-clip-text text-transparent">
+          class="text-5xl md:text-6xl font-bold bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent leading-tight">
           {{ $t('landing.testimonials.title') }}
         </h2>
         <p class="text-xl text-muted-foreground leading-relaxed">
@@ -72,7 +72,7 @@
                 <p class="text-muted-foreground font-medium">{{ $t('landing.testimonials.cards.card1.position') }}</p>
                 <div class="flex items-center gap-2 mt-1">
                   <div class="w-2 h-2 rounded-full bg-primary"></div>
-                  <span class="text-xs text-muted-foreground">认证用户</span>
+                  <span class="text-xs text-muted-foreground">{{ $t('landing.testimonials.verifiedUser') }}</span>
                 </div>
               </div>
             </div>
@@ -128,7 +128,7 @@
                 <p class="text-muted-foreground font-medium">{{ $t('landing.testimonials.cards.card2.position') }}</p>
                 <div class="flex items-center gap-2 mt-1">
                   <div class="w-2 h-2 rounded-full bg-primary"></div>
-                  <span class="text-xs text-muted-foreground">认证用户</span>
+                  <span class="text-xs text-muted-foreground">{{ $t('landing.testimonials.verifiedUser') }}</span>
                 </div>
               </div>
             </div>
@@ -184,7 +184,7 @@
                 <p class="text-muted-foreground font-medium">{{ $t('landing.testimonials.cards.card3.position') }}</p>
                 <div class="flex items-center gap-2 mt-1">
                   <div class="w-2 h-2 rounded-full bg-secondary"></div>
-                  <span class="text-xs text-muted-foreground">认证用户</span>
+                  <span class="text-xs text-muted-foreground">{{ $t('landing.testimonials.verifiedUser') }}</span>
                 </div>
               </div>
             </div>

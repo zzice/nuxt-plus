@@ -147,6 +147,7 @@
       }
     },
     "features": {
+      "badge": "核心特性",
       "title": "特性",
       "description": "NuxtPlus 提供丰富的功能和组件，帮助您快速构建现代网络应用。",
       "items": {
@@ -176,7 +177,31 @@
         }
       }
     },
+    "testimonials": {
+      "badge": "用户评价",
+      "title": "用户怎么说",
+      "description": "听听我们满意的客户对我们产品的评价。",
+      "verifiedUser": "认证用户",
+      "cards": {
+        "card1": {
+          "content": "这款产品彻底改变了我的工作流程。直观的界面和强大的功能每周为我节省了数小时。",
+          "name": "莎拉·约翰逊",
+          "position": "产品设计师"
+        },
+        "card2": {
+          "content": "作为一名开发者，我很欣赏其简洁的代码库和全面的文档。与它合作非常愉快。",
+          "name": "陈明",
+          "position": "前端开发者"
+        },
+        "card3": {
+          "content": "客户支持非常出色。他们几分钟内就回复了我的查询，并迅速解决了我的问题。",
+          "name": "大卫·威尔逊",
+          "position": "CTO"
+        }
+      }
+    },
     "pricing": {
+      "badge": "定价方案",
       "title": "定价",
       "subtitle": "选择最适合您需求的方案，所有方案均提供核心功能，随时可以升级或降级。",
       "plans": {
@@ -221,27 +246,6 @@
         }
       }
     },
-    "testimonials": {
-      "title": "用户评价",
-      "description": "来自真实用户的反馈，了解他们如何使用NuxtPlus提升开发效率",
-      "cards": {
-        "card1": {
-          "content": "NuxtPlus大大加速了我们的开发流程，组件库丰富且易于定制，让我们能够专注于业务逻辑而非UI实现。",
-          "name": "张女士",
-          "position": "前端技术总监 · 科技公司"
-        },
-        "card2": {
-          "content": "作为一名独立开发者，NuxtPlus为我提供了专业级的开发体验，让我的项目看起来就像是由一个团队完成的。",
-          "name": "李先生",
-          "position": "独立开发者 · 自由职业"
-        },
-        "card3": {
-          "content": "我们的团队在迁移到NuxtPlus后，开发效率提升了30%，主题系统让我们能够轻松适配不同的品牌需求。",
-          "name": "王先生",
-          "position": "技术负责人 · 电商平台"
-        }
-      }
-    },
     "faq": {
       "title": "常见问题",
       "description": "我们收集了一些您可能会问的问题，如果没有找到您需要的答案，请随时联系我们。",
@@ -283,7 +287,9 @@
       "cookies": "Cookie政策",
       "security": "安全"
     },
-    "copyright": "NuxtPlus. 保留所有权利。"
+    "copyright": "NuxtPlus. 保留所有权利。",
+    "madeIn": "中国制造",
+    "builtWith": "使用 ❤️ 构建，基于 Nuxt 3 & Vue 3"
   },
   "blog": {
     "category": "分类",

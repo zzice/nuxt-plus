@@ -34,39 +34,27 @@
             </h3>
             <div class="space-y-3">
               <NuxtLink to="/#features"
-                class="group flex items-center text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10">
-                <Icon name="lucide:chevron-right"
-                  class="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
                 <span>{{ $t('landing.features.title') }}</span>
               </NuxtLink>
               <NuxtLink to="/#pricing"
-                class="group flex items-center text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10">
-                <Icon name="lucide:chevron-right"
-                  class="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
                 <span>{{ $t('landing.pricing.title') }}</span>
               </NuxtLink>
               <NuxtLink to="/blog"
-                class="group flex items-center text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10">
-                <Icon name="lucide:chevron-right"
-                  class="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
                 <span>{{ $t('footer.company.blog') }}</span>
               </NuxtLink>
               <NuxtLink to="/showcase"
-                class="group flex items-center text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10">
-                <Icon name="lucide:chevron-right"
-                  class="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
                 <span>{{ $t('showcase.title') }}</span>
               </NuxtLink>
               <NuxtLink to="/#testimonials"
-                class="group flex items-center text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10">
-                <Icon name="lucide:chevron-right"
-                  class="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
                 <span>{{ $t('landing.testimonials.title') }}</span>
               </NuxtLink>
               <NuxtLink to="/#faq"
-                class="group flex items-center text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10">
-                <Icon name="lucide:chevron-right"
-                  class="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
                 <span>{{ $t('landing.faq.title') }}</span>
               </NuxtLink>
             </div>
@@ -81,15 +69,11 @@
             </h3>
             <div class="space-y-3">
               <NuxtLink to="/blog"
-                class="group flex items-center text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-secondary/10">
-                <Icon name="lucide:chevron-right"
-                  class="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-secondary/10 block">
                 <span>{{ $t('footer.company.blog') }}</span>
               </NuxtLink>
               <NuxtLink to="/#docs"
-                class="group flex items-center text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-secondary/10">
-                <Icon name="lucide:chevron-right"
-                  class="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-secondary/10 block">
                 <span>{{ $t('footer.resources.documentation') }}</span>
               </NuxtLink>
             </div>
@@ -104,15 +88,11 @@
             </h3>
             <div class="space-y-3">
               <NuxtLink to="/about"
-                class="group flex items-center text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10">
-                <Icon name="lucide:chevron-right"
-                  class="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
                 <span>{{ $t('footer.company.about') }}</span>
               </NuxtLink>
               <NuxtLink to="/contact"
-                class="group flex items-center text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10">
-                <Icon name="lucide:chevron-right"
-                  class="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
                 <span>{{ $t('footer.company.contact') }}</span>
               </NuxtLink>
             </div>
@@ -127,15 +107,11 @@
             </h3>
             <div class="space-y-3">
               <NuxtLink to="/privacy"
-                class="group flex items-center text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-secondary/10">
-                <Icon name="lucide:chevron-right"
-                  class="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-secondary/10 block">
                 <span>{{ $t('footer.legal.privacy') }}</span>
               </NuxtLink>
               <NuxtLink to="/terms"
-                class="group flex items-center text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-secondary/10">
-                <Icon name="lucide:chevron-right"
-                  class="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-secondary/10 block">
                 <span>{{ $t('footer.legal.terms') }}</span>
               </NuxtLink>
             </div>
@@ -151,7 +127,7 @@
               © {{ new Date().getFullYear() }} {{ $t('footer.copyright') }}
             </span>
             <p class="text-sm text-muted-foreground/80">
-              Built with ❤️ using Nuxt 3 & Vue 3
+              {{ $t('footer.builtWith') }}
             </p>
           </div>
           <div class="flex items-center space-x-8">
@@ -171,7 +147,7 @@
             </div>
             <div class="flex items-center space-x-2 text-sm text-muted-foreground">
               <Icon name="lucide:heart" class="h-4 w-4 text-red-500" />
-              <span>Made in China</span>
+              <span>{{ $t('footer.madeIn') }}</span>
             </div>
           </div>
         </div>

@@ -147,6 +147,7 @@
       }
     },
     "features": {
+      "badge": "Core Features",
       "title": "Features",
       "description": "NuxtPlus provides rich features and components to help you quickly build modern web applications.",
       "items": {
@@ -176,7 +177,31 @@
         }
       }
     },
+    "testimonials": {
+      "badge": "Testimonials",
+      "title": "What Our Users Say",
+      "description": "Real feedback from our users, learn how they use NuxtPlus to improve development efficiency",
+      "verifiedUser": "Verified User",
+      "cards": {
+        "card1": {
+          "content": "NuxtPlus has greatly accelerated our development process. The rich component library is easy to customize, allowing us to focus on business logic rather than UI implementation.",
+          "name": "Ms. Zhang",
+          "position": "Frontend Technical Director · Tech Company"
+        },
+        "card2": {
+          "content": "As an independent developer, NuxtPlus provides me with a professional development experience, making my projects look like they were completed by a team.",
+          "name": "Mr. Li",
+          "position": "Independent Developer · Freelancer"
+        },
+        "card3": {
+          "content": "After migrating to NuxtPlus, our team's development efficiency increased by 30%. The theme system allows us to easily adapt to different brand requirements.",
+          "name": "Mr. Wang",
+          "position": "Technical Lead · E-commerce Platform"
+        }
+      }
+    },
     "pricing": {
+      "badge": "Pricing Plans",
       "title": "Pricing",
       "subtitle": "Choose the plan that best fits your needs. All plans include core features and can be upgraded or downgraded at any time.",
       "plans": {
@@ -221,27 +246,6 @@
         }
       }
     },
-    "testimonials": {
-      "title": "Testimonials",
-      "description": "Real feedback from our users, learn how they use NuxtPlus to improve development efficiency",
-      "cards": {
-        "card1": {
-          "content": "NuxtPlus has greatly accelerated our development process. The rich component library is easy to customize, allowing us to focus on business logic rather than UI implementation.",
-          "name": "Ms. Zhang",
-          "position": "Frontend Technical Director · Tech Company"
-        },
-        "card2": {
-          "content": "As an independent developer, NuxtPlus provides me with a professional development experience, making my projects look like they were completed by a team.",
-          "name": "Mr. Li",
-          "position": "Independent Developer · Freelancer"
-        },
-        "card3": {
-          "content": "After migrating to NuxtPlus, our team's development efficiency increased by 30%. The theme system allows us to easily adapt to different brand requirements.",
-          "name": "Mr. Wang",
-          "position": "Technical Lead · E-commerce Platform"
-        }
-      }
-    },
     "faq": {
       "title": "FAQ",
       "description": "We've collected some questions you might ask. If you can't find the answer you're looking for, feel free to contact us.",
@@ -283,7 +287,9 @@
       "cookies": "Cookie Policy",
       "security": "Security"
     },
-    "copyright": "NuxtPlus. All rights reserved."
+    "copyright": "NuxtPlus. All rights reserved.",
+    "madeIn": "Made in China",
+    "builtWith": "Built with ❤️ using Nuxt 3 & Vue 3"
   },
   "blog": {
     "category": "Category",
