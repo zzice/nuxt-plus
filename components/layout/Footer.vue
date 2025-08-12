@@ -34,27 +34,27 @@
             </h3>
             <div class="space-y-3">
               <NuxtLink to="/#features"
-                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 block">
                 <span>{{ $t('landing.features.title') }}</span>
               </NuxtLink>
               <NuxtLink to="/#pricing"
-                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 block">
                 <span>{{ $t('landing.pricing.title') }}</span>
               </NuxtLink>
               <NuxtLink to="/blog"
-                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 block">
                 <span>{{ $t('footer.company.blog') }}</span>
               </NuxtLink>
               <NuxtLink to="/showcase"
-                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 block">
                 <span>{{ $t('showcase.title') }}</span>
               </NuxtLink>
               <NuxtLink to="/#testimonials"
-                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 block">
                 <span>{{ $t('landing.testimonials.title') }}</span>
               </NuxtLink>
               <NuxtLink to="/#faq"
-                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 block">
                 <span>{{ $t('landing.faq.title') }}</span>
               </NuxtLink>
             </div>
@@ -69,11 +69,11 @@
             </h3>
             <div class="space-y-3">
               <NuxtLink to="/blog"
-                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-secondary/10 block">
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 block">
                 <span>{{ $t('footer.company.blog') }}</span>
               </NuxtLink>
               <NuxtLink to="/#docs"
-                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-secondary/10 block">
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 block">
                 <span>{{ $t('footer.resources.documentation') }}</span>
               </NuxtLink>
             </div>
@@ -88,11 +88,11 @@
             </h3>
             <div class="space-y-3">
               <NuxtLink to="/about"
-                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 block">
                 <span>{{ $t('footer.company.about') }}</span>
               </NuxtLink>
               <NuxtLink to="/contact"
-                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-primary/10 block">
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 block">
                 <span>{{ $t('footer.company.contact') }}</span>
               </NuxtLink>
             </div>
@@ -107,11 +107,11 @@
             </h3>
             <div class="space-y-3">
               <NuxtLink to="/privacy"
-                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-secondary/10 block">
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 block">
                 <span>{{ $t('footer.legal.privacy') }}</span>
               </NuxtLink>
               <NuxtLink to="/terms"
-                class="text-muted-foreground hover:text-foreground transition-all duration-300 py-2 px-3 rounded-lg hover:bg-secondary/10 block">
+                class="text-muted-foreground hover:text-foreground transition-all duration-300 block">
                 <span>{{ $t('footer.legal.terms') }}</span>
               </NuxtLink>
             </div>
