@@ -3,15 +3,18 @@
     <!-- 背景装饰 -->
     <div class="absolute inset-0 bg-gradient-to-b from-secondary/5 via-transparent to-primary/5"></div>
     <div class="absolute top-1/4 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse delay-500"></div>
-    <div class="absolute bottom-1/4 left-0 w-80 h-80 bg-secondary/10 rounded-full blur-3xl animate-pulse delay-1500"></div>
-    
+    <div class="absolute bottom-1/4 left-0 w-80 h-80 bg-secondary/10 rounded-full blur-3xl animate-pulse delay-1500">
+    </div>
+
     <div class="mx-auto max-w-7xl px-6 relative z-10">
       <div class="mx-auto max-w-3xl space-y-8 text-center mb-20">
-        <div class="inline-flex items-center gap-2 rounded-full bg-secondary/10 px-4 py-2 text-sm font-medium text-secondary mb-6">
+        <div
+          class="inline-flex items-center gap-2 rounded-full bg-secondary/10 px-4 py-2 text-sm font-medium text-secondary mb-6">
           <Icon name="lucide:heart" class="w-4 h-4" />
           用户评价
         </div>
-        <h2 class="text-5xl md:text-6xl font-bold bg-gradient-to-r from-foreground via-secondary to-foreground bg-clip-text text-transparent">
+        <h2
+          class="text-5xl md:text-6xl font-bold bg-gradient-to-r from-foreground via-secondary to-foreground bg-clip-text text-transparent">
           {{ $t('landing.testimonials.title') }}
         </h2>
         <p class="text-xl text-muted-foreground leading-relaxed">
@@ -21,16 +24,19 @@
 
       <div class="mt-20 grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
         <!-- 用户评价卡片 1 -->
-        <div class="group relative bg-gradient-to-br from-background to-background/80 backdrop-blur-sm rounded-3xl border border-border/50 p-8 shadow-lg transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 hover:-translate-y-2 hover:border-primary/30">
-          
+        <div
+          class="group relative bg-gradient-to-br from-background to-background/80 backdrop-blur-sm rounded-3xl border border-border/50 p-8 shadow-lg transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 hover:-translate-y-2 hover:border-primary/30">
+
           <!-- 背景光效 -->
-          <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl"></div>
-          
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl">
+          </div>
+
           <!-- 引用装饰 -->
           <div class="absolute top-6 right-6 opacity-10 group-hover:opacity-20 transition-opacity duration-300">
             <Icon name="lucide:quote" class="w-12 h-12 text-primary" />
           </div>
-          
+
           <div class="relative z-10 space-y-6">
             <!-- 评价内容 -->
             <div class="space-y-4">
@@ -41,21 +47,24 @@
                 "{{ $t('landing.testimonials.cards.card1.content') }}"
               </blockquote>
             </div>
-            
+
             <!-- 分隔线 -->
             <div class="w-full h-px bg-gradient-to-r from-transparent via-border to-transparent"></div>
-            
+
             <!-- 用户信息 -->
             <div class="flex items-center gap-4">
               <div class="relative">
-                <div class="w-14 h-14 rounded-2xl overflow-hidden ring-2 ring-offset-2 ring-offset-background ring-primary/30 group-hover:ring-4 group-hover:ring-primary/50 transition-all duration-300">
-                  <img src="https://randomuser.me/api/portraits/women/32.jpg" :alt="$t('landing.testimonials.cards.card1.name')" class="w-full h-full object-cover" />
+                <div
+                  class="w-14 h-14 rounded-2xl overflow-hidden ring-2 ring-offset-2 ring-offset-background ring-primary/30 group-hover:ring-4 group-hover:ring-primary/50 transition-all duration-300">
+                  <img src="https://randomuser.me/api/portraits/women/32.jpg"
+                    :alt="$t('landing.testimonials.cards.card1.name')" class="w-full h-full object-cover" />
                 </div>
-                <div class="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-primary flex items-center justify-center shadow-lg">
+                <div
+                  class="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-primary flex items-center justify-center shadow-lg">
                   <Icon name="lucide:check" class="w-3 h-3 text-white" />
                 </div>
               </div>
-              
+
               <div class="flex-1">
                 <h3 class="font-bold text-foreground text-lg group-hover:text-primary transition-colors duration-300">
                   {{ $t('landing.testimonials.cards.card1.name') }}
@@ -71,16 +80,19 @@
         </div>
 
         <!-- 用户评价卡片 2 -->
-        <div class="group relative bg-gradient-to-br from-background to-background/80 backdrop-blur-sm rounded-3xl border border-border/50 p-8 shadow-lg transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 hover:-translate-y-2 hover:border-primary/30 md:scale-105 border-primary/30 shadow-xl">
-          
+        <div
+          class="group relative bg-gradient-to-br from-background to-background/80 backdrop-blur-sm rounded-3xl border border-border/50 p-8 shadow-lg transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 hover:-translate-y-2 hover:border-primary/30 md:scale-105 border-primary/30 shadow-xl">
+
           <!-- 背景光效 -->
-          <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl"></div>
-          
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl">
+          </div>
+
           <!-- 引用装饰 -->
           <div class="absolute top-6 right-6 opacity-10 group-hover:opacity-20 transition-opacity duration-300">
             <Icon name="lucide:quote" class="w-12 h-12 text-primary" />
           </div>
-          
+
           <div class="relative z-10 space-y-6">
             <!-- 评价内容 -->
             <div class="space-y-4">
@@ -91,21 +103,24 @@
                 "{{ $t('landing.testimonials.cards.card2.content') }}"
               </blockquote>
             </div>
-            
+
             <!-- 分隔线 -->
             <div class="w-full h-px bg-gradient-to-r from-transparent via-border to-transparent"></div>
-            
+
             <!-- 用户信息 -->
             <div class="flex items-center gap-4">
               <div class="relative">
-                <div class="w-14 h-14 rounded-2xl overflow-hidden ring-2 ring-offset-2 ring-offset-background ring-primary/30 group-hover:ring-4 group-hover:ring-primary/50 transition-all duration-300">
-                  <img src="https://randomuser.me/api/portraits/men/45.jpg" :alt="$t('landing.testimonials.cards.card2.name')" class="w-full h-full object-cover" />
+                <div
+                  class="w-14 h-14 rounded-2xl overflow-hidden ring-2 ring-offset-2 ring-offset-background ring-primary/30 group-hover:ring-4 group-hover:ring-primary/50 transition-all duration-300">
+                  <img src="https://randomuser.me/api/portraits/men/45.jpg"
+                    :alt="$t('landing.testimonials.cards.card2.name')" class="w-full h-full object-cover" />
                 </div>
-                <div class="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-primary flex items-center justify-center shadow-lg">
+                <div
+                  class="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-primary flex items-center justify-center shadow-lg">
                   <Icon name="lucide:check" class="w-3 h-3 text-white" />
                 </div>
               </div>
-              
+
               <div class="flex-1">
                 <h3 class="font-bold text-foreground text-lg group-hover:text-primary transition-colors duration-300">
                   {{ $t('landing.testimonials.cards.card2.name') }}
@@ -121,16 +136,19 @@
         </div>
 
         <!-- 用户评价卡片 3 -->
-        <div class="group relative bg-gradient-to-br from-background to-background/80 backdrop-blur-sm rounded-3xl border border-border/50 p-8 shadow-lg transition-all duration-500 hover:shadow-2xl hover:shadow-secondary/10 hover:-translate-y-2 hover:border-secondary/30">
-          
+        <div
+          class="group relative bg-gradient-to-br from-background to-background/80 backdrop-blur-sm rounded-3xl border border-border/50 p-8 shadow-lg transition-all duration-500 hover:shadow-2xl hover:shadow-secondary/10 hover:-translate-y-2 hover:border-secondary/30">
+
           <!-- 背景光效 -->
-          <div class="absolute inset-0 bg-gradient-to-br from-secondary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl"></div>
-          
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-secondary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl">
+          </div>
+
           <!-- 引用装饰 -->
           <div class="absolute top-6 right-6 opacity-10 group-hover:opacity-20 transition-opacity duration-300">
             <Icon name="lucide:quote" class="w-12 h-12 text-secondary" />
           </div>
-          
+
           <div class="relative z-10 space-y-6">
             <!-- 评价内容 -->
             <div class="space-y-4">
@@ -141,21 +159,24 @@
                 "{{ $t('landing.testimonials.cards.card3.content') }}"
               </blockquote>
             </div>
-            
+
             <!-- 分隔线 -->
             <div class="w-full h-px bg-gradient-to-r from-transparent via-border to-transparent"></div>
-            
+
             <!-- 用户信息 -->
             <div class="flex items-center gap-4">
               <div class="relative">
-                <div class="w-14 h-14 rounded-2xl overflow-hidden ring-2 ring-offset-2 ring-offset-background ring-secondary/30 group-hover:ring-4 group-hover:ring-secondary/50 transition-all duration-300">
-                  <img src="https://randomuser.me/api/portraits/men/22.jpg" :alt="$t('landing.testimonials.cards.card3.name')" class="w-full h-full object-cover" />
+                <div
+                  class="w-14 h-14 rounded-2xl overflow-hidden ring-2 ring-offset-2 ring-offset-background ring-secondary/30 group-hover:ring-4 group-hover:ring-secondary/50 transition-all duration-300">
+                  <img src="https://randomuser.me/api/portraits/men/22.jpg"
+                    :alt="$t('landing.testimonials.cards.card3.name')" class="w-full h-full object-cover" />
                 </div>
-                <div class="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-secondary flex items-center justify-center shadow-lg">
+                <div
+                  class="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-secondary flex items-center justify-center shadow-lg">
                   <Icon name="lucide:check" class="w-3 h-3 text-white" />
                 </div>
               </div>
-              
+
               <div class="flex-1">
                 <h3 class="font-bold text-foreground text-lg group-hover:text-secondary transition-colors duration-300">
                   {{ $t('landing.testimonials.cards.card3.name') }}
